@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap");
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 100;
+  background-color: #f4f4f4;
+  color: #111;
+}
+
+.header_nav {
+  background-color: #003366;
+  padding: 10px;
+}
+
+.header_nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 30px;
+}
+
+.header_nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.m1e;
+}
+
+.main_info-container {
+  display: flex;
+  padding: 20px;
+}
+
+.main_info-aside {
+  width: 25%;
+  background-color: #2e3e5c;
+  color: white;
+  padding: 20px;
+}
+
+.main_info-aside img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.main_info-aside h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.info_list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.info_list li {
+  margin-bottom: 5px;
+}
+
+.main_info-content {
+  width: 75%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main_info-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.main_info-content h2 {
+  margin-top: 25px;
+  font-size: 1.4em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.main_info-content ul,
+.main_info-content ol {
+  margin: 10px 0 20px 25px;
+}
